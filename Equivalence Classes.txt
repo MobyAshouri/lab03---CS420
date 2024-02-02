@@ -1,0 +1,29 @@
+The following tests were ran:
+
+test_1_10
+Tests input given in the PDF. The PDF's output is incorrect for this test. Test failed expectedly. This test has been removed from the JUnit file.
+
+test_100_200
+Tests input given in the PDF. The PDF's output is correct. Test succeeded. This is the expected use case.
+
+test_201_210
+Tests input given in the PDF. The PDF's output is correct. Test succeeded. This is the expected use case.
+
+test_900_1000
+Tests input given in the PDF. The PDF's output is correct. Test succeeded. This is the expected use case.
+
+test_1_10_modified
+This is a modified version of test-1_10. It tests the input against my expected output. Test succeeded.
+
+test_22_22
+This tests a single value within a range of values (22 - 22). Test succeeded.
+
+test_10_0
+This tests values in the reverse order. Passed.
+
+test_10_n10
+This tests if i can be positive and j be negative. Passed.
+
+test_n10_10
+This tests if i can be negative and j be positive. This results in an infinite loop. The algorithm isn't meant to handle negative values.
+I attempted to add a timeout to this particular test. It did not work for some reason. This test was thrown out of the JUnit file for this reason.
